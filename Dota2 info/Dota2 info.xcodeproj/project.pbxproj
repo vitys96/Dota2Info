@@ -9,21 +9,41 @@
 /* Begin PBXBuildFile section */
 		E970A40829CE20A200929AFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E970A40729CE20A200929AFA /* AppDelegate.swift */; };
 		E970A40A29CE20A200929AFA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E970A40929CE20A200929AFA /* SceneDelegate.swift */; };
-		E970A40C29CE20A200929AFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E970A40B29CE20A200929AFA /* ViewController.swift */; };
-		E970A40F29CE20A200929AFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E970A40D29CE20A200929AFA /* Main.storyboard */; };
 		E970A41129CE20A300929AFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E970A41029CE20A300929AFA /* Assets.xcassets */; };
 		E970A41429CE20A300929AFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E970A41229CE20A300929AFA /* LaunchScreen.storyboard */; };
+		E970A41F29CE214C00929AFA /* LifeCycleListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = E970A41E29CE214C00929AFA /* LifeCycleListener.swift */; };
+		E970A42129CE215900929AFA /* Routable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E970A42029CE215900929AFA /* Routable.swift */; };
+		E970A42329CE216700929AFA /* Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E970A42229CE216700929AFA /* Presentable.swift */; };
+		E970A42529CE217200929AFA /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E970A42429CE217200929AFA /* Coordinator.swift */; };
+		E970A42829CE218700929AFA /* WeakReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = E970A42729CE218700929AFA /* WeakReference.swift */; };
+		E970A42B29CE21CF00929AFA /* SystemNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E970A42A29CE21CF00929AFA /* SystemNavigationController.swift */; };
+		E970A42E29CE21FF00929AFA /* ApplicationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E970A42D29CE21FF00929AFA /* ApplicationRouter.swift */; };
+		E970A43029CE221100929AFA /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E970A42F29CE221100929AFA /* BaseCoordinator.swift */; };
+		E970A43229CE224A00929AFA /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E970A43129CE224A00929AFA /* TabBarCoordinator.swift */; };
+		E970A43429CE226B00929AFA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E970A43329CE226B00929AFA /* ContentView.swift */; };
+		E970A43729CE230700929AFA /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = E970A43629CE230700929AFA /* Application.swift */; };
+		E970A43A29CE235700929AFA /* CoordinatorsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E970A43929CE235700929AFA /* CoordinatorsFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E970A40429CE20A200929AFA /* Dota2 info.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dota2 info.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E970A40729CE20A200929AFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E970A40929CE20A200929AFA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E970A40B29CE20A200929AFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E970A40E29CE20A200929AFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E970A41029CE20A300929AFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E970A41329CE20A300929AFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E970A41529CE20A300929AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E970A41E29CE214C00929AFA /* LifeCycleListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCycleListener.swift; sourceTree = "<group>"; };
+		E970A42029CE215900929AFA /* Routable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routable.swift; sourceTree = "<group>"; };
+		E970A42229CE216700929AFA /* Presentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presentable.swift; sourceTree = "<group>"; };
+		E970A42429CE217200929AFA /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		E970A42729CE218700929AFA /* WeakReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakReference.swift; sourceTree = "<group>"; };
+		E970A42A29CE21CF00929AFA /* SystemNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemNavigationController.swift; sourceTree = "<group>"; };
+		E970A42D29CE21FF00929AFA /* ApplicationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationRouter.swift; sourceTree = "<group>"; };
+		E970A42F29CE221100929AFA /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		E970A43129CE224A00929AFA /* TabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCoordinator.swift; sourceTree = "<group>"; };
+		E970A43329CE226B00929AFA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E970A43629CE230700929AFA /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		E970A43929CE235700929AFA /* CoordinatorsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorsFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +76,89 @@
 		E970A40629CE20A200929AFA /* Dota2 info */ = {
 			isa = PBXGroup;
 			children = (
+				E970A43529CE230000929AFA /* Main */,
+				E970A42929CE21C700929AFA /* UIKit */,
+				E970A42629CE217D00929AFA /* Helpers */,
+				E970A41B29CE212500929AFA /* Coordinators */,
 				E970A40729CE20A200929AFA /* AppDelegate.swift */,
 				E970A40929CE20A200929AFA /* SceneDelegate.swift */,
-				E970A40B29CE20A200929AFA /* ViewController.swift */,
-				E970A40D29CE20A200929AFA /* Main.storyboard */,
+				E970A43329CE226B00929AFA /* ContentView.swift */,
 				E970A41029CE20A300929AFA /* Assets.xcassets */,
 				E970A41229CE20A300929AFA /* LaunchScreen.storyboard */,
 				E970A41529CE20A300929AFA /* Info.plist */,
 			);
 			path = "Dota2 info";
+			sourceTree = "<group>";
+		};
+		E970A41B29CE212500929AFA /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				E970A43829CE234200929AFA /* CoordinatorsFactory */,
+				E970A41D29CE213C00929AFA /* Protocols */,
+				E970A41C29CE213100929AFA /* Core */,
+				E970A43129CE224A00929AFA /* TabBarCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		E970A41C29CE213100929AFA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E970A42D29CE21FF00929AFA /* ApplicationRouter.swift */,
+				E970A42F29CE221100929AFA /* BaseCoordinator.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E970A41D29CE213C00929AFA /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E970A41E29CE214C00929AFA /* LifeCycleListener.swift */,
+				E970A42029CE215900929AFA /* Routable.swift */,
+				E970A42229CE216700929AFA /* Presentable.swift */,
+				E970A42429CE217200929AFA /* Coordinator.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		E970A42629CE217D00929AFA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E970A42729CE218700929AFA /* WeakReference.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E970A42929CE21C700929AFA /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				E970A42C29CE21DD00929AFA /* TabBar */,
+				E970A42A29CE21CF00929AFA /* SystemNavigationController.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		E970A42C29CE21DD00929AFA /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		E970A43529CE230000929AFA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E970A43629CE230700929AFA /* Application.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E970A43829CE234200929AFA /* CoordinatorsFactory */ = {
+			isa = PBXGroup;
+			children = (
+				E970A43929CE235700929AFA /* CoordinatorsFactory.swift */,
+			);
+			path = CoordinatorsFactory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +221,6 @@
 			files = (
 				E970A41429CE20A300929AFA /* LaunchScreen.storyboard in Resources */,
 				E970A41129CE20A300929AFA /* Assets.xcassets in Resources */,
-				E970A40F29CE20A200929AFA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +231,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E970A40C29CE20A200929AFA /* ViewController.swift in Sources */,
+				E970A42B29CE21CF00929AFA /* SystemNavigationController.swift in Sources */,
+				E970A42E29CE21FF00929AFA /* ApplicationRouter.swift in Sources */,
+				E970A43229CE224A00929AFA /* TabBarCoordinator.swift in Sources */,
+				E970A41F29CE214C00929AFA /* LifeCycleListener.swift in Sources */,
 				E970A40829CE20A200929AFA /* AppDelegate.swift in Sources */,
 				E970A40A29CE20A200929AFA /* SceneDelegate.swift in Sources */,
+				E970A42129CE215900929AFA /* Routable.swift in Sources */,
+				E970A43A29CE235700929AFA /* CoordinatorsFactory.swift in Sources */,
+				E970A42829CE218700929AFA /* WeakReference.swift in Sources */,
+				E970A42329CE216700929AFA /* Presentable.swift in Sources */,
+				E970A43429CE226B00929AFA /* ContentView.swift in Sources */,
+				E970A43029CE221100929AFA /* BaseCoordinator.swift in Sources */,
+				E970A43729CE230700929AFA /* Application.swift in Sources */,
+				E970A42529CE217200929AFA /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E970A40D29CE20A200929AFA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E970A40E29CE20A200929AFA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E970A41229CE20A300929AFA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,10 +387,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Dota2 info/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +397,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "kaboo.Dota2-info";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -319,10 +417,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Dota2 info/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +427,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "kaboo.Dota2-info";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
