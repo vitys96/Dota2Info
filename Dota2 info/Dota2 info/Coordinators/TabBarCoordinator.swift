@@ -14,13 +14,16 @@ final class TabBarCoordinator: BaseCoordinator {
 
     // MARK: Init
     private let tabBarController: SystemTabBarController
+    private let coordinatorsFactory: CoordinatorsFactoring
 
     init(
         tabBarController: SystemTabBarController,
+        coordinatorsFactory: CoordinatorsFactoring,
         router: Routable,
         parent: BaseCoordinator?
     ) {
         self.tabBarController = tabBarController
+        self.coordinatorsFactory = coordinatorsFactory
 
         super.init(router: router, parent: parent)
     }
@@ -36,12 +39,19 @@ extension TabBarCoordinator: Coordinator {
 
 private extension TabBarCoordinator {
     func prepareTabs() {
-        let main: PresentableTab = (UIHostingController(rootView: ContentView()), makeBarItem(for: .main))
-        let favoutire: PresentableTab = (UIHostingController(rootView: ContentView1()), makeBarItem(for: .favourite))
+        let main: PresentableTab = makeTournamentsTab()
+        let favoutire: PresentableTab = (UIHostingController(rootView: ContentView()), makeBarItem(for: .favourite))
         
         setPresentable([main, favoutire])
         
         router.setRootModule(tabBarController, hideNavigationBar: false, animated: false)
+    }
+    
+    func makeTournamentsTab() -> PresentableTab {
+        let unit = coordinatorsFactory.makeTournamentsCoordinator(parent: self)
+        unit.coordinator.start()
+
+        return (unit.view, makeBarItem(for: .main))
     }
 
     func makeBarItem(for tab: RootTab) -> UITabBarItem {
@@ -77,9 +87,9 @@ private extension SystemTabBarController {
             .foregroundColor: UIColor(red: 0.141, green: 0.157, blue: 0.169, alpha: 1)
         ]
         
-        tabBar.backgroundColor = ColorPalette.alternativeBackground
-        tabBar.tintColor = ColorPalette.accent
-        tabBar.barTintColor = ColorPalette.alternativeBackground
+        tabBar.backgroundColor = .green
+        tabBar.tintColor = .red
+//        tabBar.barTintColor = .green
         
         tabBar.scrollEdgeAppearance = tabBarAppearance
     }

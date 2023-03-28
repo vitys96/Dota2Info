@@ -19,7 +19,7 @@ open class Application: ApplicationProtocol {
         window = ApplicationWindow(frame: UIScreen.main.bounds)
         self.window = window
         
-        let coordinatorsFactory = CoordinatorsFactory()
+        let coordinatorsFactory = CoordinatorsFactory(modulesFactory: ModulesFactory())
 
 
         guard let rootSystem = window?.rootViewController as? SystemNavigationController else {

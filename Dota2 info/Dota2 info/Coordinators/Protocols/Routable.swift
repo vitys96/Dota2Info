@@ -111,15 +111,15 @@ public extension Routable {
         popModule(animated: animated, completion: completion)
     }
 
-//    func setRootModule(
-//        _ module: Presentable,
-//        hideNavigationBar: Bool = true,
-//        animated: Bool = true
-//    ) {
-//        setRootModule(
-//            module,
-//            hideNavigationBar: hideNavigationBar,
-//            animated: animated
-//        )
-//    }
+    func setRootModule(
+        _ module: Presentable,
+        hideNavigationBar: Bool = true,
+        animated: Bool = true
+    ) {
+        setRootModule(
+            module,
+            hideNavigationBar: hideNavigationBar,
+            animated: animated
+        )
+    }
 }

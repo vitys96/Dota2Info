@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E93E017729D0D3C00074DB00 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E93E017629D0D3C00074DB00 /* Color.xcassets */; };
+		E93E017C29D0D6DF0074DB00 /* WeakReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93E017B29D0D6DF0074DB00 /* WeakReference.swift */; };
+		E93E017E29D0D6F10074DB00 /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93E017D29D0D6F10074DB00 /* ColorManager.swift */; };
 		E970A40829CE20A200929AFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E970A40729CE20A200929AFA /* AppDelegate.swift */; };
 		E970A40A29CE20A200929AFA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E970A40929CE20A200929AFA /* SceneDelegate.swift */; };
 		E970A41129CE20A300929AFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E970A41029CE20A300929AFA /* Assets.xcassets */; };
@@ -15,7 +18,6 @@
 		E970A42129CE215900929AFA /* Routable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E970A42029CE215900929AFA /* Routable.swift */; };
 		E970A42329CE216700929AFA /* Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E970A42229CE216700929AFA /* Presentable.swift */; };
 		E970A42529CE217200929AFA /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E970A42429CE217200929AFA /* Coordinator.swift */; };
-		E970A42829CE218700929AFA /* WeakReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = E970A42729CE218700929AFA /* WeakReference.swift */; };
 		E970A42B29CE21CF00929AFA /* SystemNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E970A42A29CE21CF00929AFA /* SystemNavigationController.swift */; };
 		E970A42E29CE21FF00929AFA /* ApplicationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E970A42D29CE21FF00929AFA /* ApplicationRouter.swift */; };
 		E970A43029CE221100929AFA /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E970A42F29CE221100929AFA /* BaseCoordinator.swift */; };
@@ -23,9 +25,18 @@
 		E970A43429CE226B00929AFA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E970A43329CE226B00929AFA /* ContentView.swift */; };
 		E970A43729CE230700929AFA /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = E970A43629CE230700929AFA /* Application.swift */; };
 		E970A43A29CE235700929AFA /* CoordinatorsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E970A43929CE235700929AFA /* CoordinatorsFactory.swift */; };
+		E9F798C329D3637D00105C6F /* TournamentsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F798C229D3637D00105C6F /* TournamentsCoordinator.swift */; };
+		E9F798C629D3644D00105C6F /* ModulesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F798C529D3644D00105C6F /* ModulesFactory.swift */; };
+		E9F798C829D3648000105C6F /* ModulesFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F798C729D3648000105C6F /* ModulesFactoryProtocol.swift */; };
+		E9FC30AA29D36C2300F5F265 /* TournamentsConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FC30A929D36C2300F5F265 /* TournamentsConfigurator.swift */; };
+		E9FC30AD29D36C7000F5F265 /* View+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FC30AC29D36C7000F5F265 /* View+.swift */; };
+		E9FC30AF29D36FB900F5F265 /* TournamentsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FC30AE29D36FB900F5F265 /* TournamentsPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E93E017629D0D3C00074DB00 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		E93E017B29D0D6DF0074DB00 /* WeakReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakReference.swift; sourceTree = "<group>"; };
+		E93E017D29D0D6F10074DB00 /* ColorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
 		E970A40429CE20A200929AFA /* Dota2 info.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dota2 info.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E970A40729CE20A200929AFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E970A40929CE20A200929AFA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,7 +47,6 @@
 		E970A42029CE215900929AFA /* Routable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routable.swift; sourceTree = "<group>"; };
 		E970A42229CE216700929AFA /* Presentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presentable.swift; sourceTree = "<group>"; };
 		E970A42429CE217200929AFA /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
-		E970A42729CE218700929AFA /* WeakReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakReference.swift; sourceTree = "<group>"; };
 		E970A42A29CE21CF00929AFA /* SystemNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemNavigationController.swift; sourceTree = "<group>"; };
 		E970A42D29CE21FF00929AFA /* ApplicationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationRouter.swift; sourceTree = "<group>"; };
 		E970A42F29CE221100929AFA /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
@@ -44,6 +54,12 @@
 		E970A43329CE226B00929AFA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E970A43629CE230700929AFA /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
 		E970A43929CE235700929AFA /* CoordinatorsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorsFactory.swift; sourceTree = "<group>"; };
+		E9F798C229D3637D00105C6F /* TournamentsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentsCoordinator.swift; sourceTree = "<group>"; };
+		E9F798C529D3644D00105C6F /* ModulesFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModulesFactory.swift; sourceTree = "<group>"; };
+		E9F798C729D3648000105C6F /* ModulesFactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModulesFactoryProtocol.swift; sourceTree = "<group>"; };
+		E9FC30A929D36C2300F5F265 /* TournamentsConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentsConfigurator.swift; sourceTree = "<group>"; };
+		E9FC30AC29D36C7000F5F265 /* View+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+.swift"; sourceTree = "<group>"; };
+		E9FC30AE29D36FB900F5F265 /* TournamentsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentsPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +73,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E93E017429D0D3300074DB00 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E93E017529D0D3A70074DB00 /* Assets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E93E017529D0D3A70074DB00 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E93E017629D0D3C00074DB00 /* Color.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		E93E017829D0D6800074DB00 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
+		E93E017A29D0D6CA0074DB00 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E93E017B29D0D6DF0074DB00 /* WeakReference.swift */,
+				E93E017D29D0D6F10074DB00 /* ColorManager.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		E970A3FB29CE20A200929AFA = {
 			isa = PBXGroup;
 			children = (
@@ -76,12 +124,14 @@
 		E970A40629CE20A200929AFA /* Dota2 info */ = {
 			isa = PBXGroup;
 			children = (
+				E9FC30AB29D36C6300F5F265 /* Extensions */,
+				E93E017A29D0D6CA0074DB00 /* Helpers */,
+				E93E017829D0D6800074DB00 /* Dependencies */,
+				E93E017429D0D3300074DB00 /* Resources */,
 				E970A43529CE230000929AFA /* Main */,
 				E970A42929CE21C700929AFA /* UIKit */,
-				E970A42629CE217D00929AFA /* Helpers */,
 				E970A41B29CE212500929AFA /* Coordinators */,
-				E970A40729CE20A200929AFA /* AppDelegate.swift */,
-				E970A40929CE20A200929AFA /* SceneDelegate.swift */,
+				E9F798C429D3643900105C6F /* Modules */,
 				E970A43329CE226B00929AFA /* ContentView.swift */,
 				E970A41029CE20A300929AFA /* Assets.xcassets */,
 				E970A41229CE20A300929AFA /* LaunchScreen.storyboard */,
@@ -93,10 +143,11 @@
 		E970A41B29CE212500929AFA /* Coordinators */ = {
 			isa = PBXGroup;
 			children = (
-				E970A43829CE234200929AFA /* CoordinatorsFactory */,
 				E970A41D29CE213C00929AFA /* Protocols */,
 				E970A41C29CE213100929AFA /* Core */,
+				E970A43829CE234200929AFA /* CoordinatorsFactory */,
 				E970A43129CE224A00929AFA /* TabBarCoordinator.swift */,
+				E9F798C229D3637D00105C6F /* TournamentsCoordinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -121,14 +172,6 @@
 			path = Protocols;
 			sourceTree = "<group>";
 		};
-		E970A42629CE217D00929AFA /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				E970A42729CE218700929AFA /* WeakReference.swift */,
-			);
-			path = Helpers;
-			sourceTree = "<group>";
-		};
 		E970A42929CE21C700929AFA /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +191,8 @@
 		E970A43529CE230000929AFA /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				E970A40929CE20A200929AFA /* SceneDelegate.swift */,
+				E970A40729CE20A200929AFA /* AppDelegate.swift */,
 				E970A43629CE230700929AFA /* Application.swift */,
 			);
 			path = Main;
@@ -159,6 +204,41 @@
 				E970A43929CE235700929AFA /* CoordinatorsFactory.swift */,
 			);
 			path = CoordinatorsFactory;
+			sourceTree = "<group>";
+		};
+		E9F798C429D3643900105C6F /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				E9F798C929D3650E00105C6F /* Factory */,
+				E9FC30A829D36C0E00F5F265 /* Tournaments */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		E9F798C929D3650E00105C6F /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				E9F798C529D3644D00105C6F /* ModulesFactory.swift */,
+				E9F798C729D3648000105C6F /* ModulesFactoryProtocol.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		E9FC30A829D36C0E00F5F265 /* Tournaments */ = {
+			isa = PBXGroup;
+			children = (
+				E9FC30A929D36C2300F5F265 /* TournamentsConfigurator.swift */,
+				E9FC30AE29D36FB900F5F265 /* TournamentsPresenter.swift */,
+			);
+			path = Tournaments;
+			sourceTree = "<group>";
+		};
+		E9FC30AB29D36C6300F5F265 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E9FC30AC29D36C7000F5F265 /* View+.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +301,7 @@
 			files = (
 				E970A41429CE20A300929AFA /* LaunchScreen.storyboard in Resources */,
 				E970A41129CE20A300929AFA /* Assets.xcassets in Resources */,
+				E93E017729D0D3C00074DB00 /* Color.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,14 +314,21 @@
 			files = (
 				E970A42B29CE21CF00929AFA /* SystemNavigationController.swift in Sources */,
 				E970A42E29CE21FF00929AFA /* ApplicationRouter.swift in Sources */,
+				E9FC30AA29D36C2300F5F265 /* TournamentsConfigurator.swift in Sources */,
+				E9F798C829D3648000105C6F /* ModulesFactoryProtocol.swift in Sources */,
 				E970A43229CE224A00929AFA /* TabBarCoordinator.swift in Sources */,
 				E970A41F29CE214C00929AFA /* LifeCycleListener.swift in Sources */,
 				E970A40829CE20A200929AFA /* AppDelegate.swift in Sources */,
 				E970A40A29CE20A200929AFA /* SceneDelegate.swift in Sources */,
+				E9FC30AD29D36C7000F5F265 /* View+.swift in Sources */,
+				E93E017E29D0D6F10074DB00 /* ColorManager.swift in Sources */,
+				E9FC30AF29D36FB900F5F265 /* TournamentsPresenter.swift in Sources */,
 				E970A42129CE215900929AFA /* Routable.swift in Sources */,
 				E970A43A29CE235700929AFA /* CoordinatorsFactory.swift in Sources */,
-				E970A42829CE218700929AFA /* WeakReference.swift in Sources */,
 				E970A42329CE216700929AFA /* Presentable.swift in Sources */,
+				E9F798C629D3644D00105C6F /* ModulesFactory.swift in Sources */,
+				E93E017C29D0D6DF0074DB00 /* WeakReference.swift in Sources */,
+				E9F798C329D3637D00105C6F /* TournamentsCoordinator.swift in Sources */,
 				E970A43429CE226B00929AFA /* ContentView.swift in Sources */,
 				E970A43029CE221100929AFA /* BaseCoordinator.swift in Sources */,
 				E970A43729CE230700929AFA /* Application.swift in Sources */,

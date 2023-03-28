@@ -19,10 +19,10 @@ struct ContentView: View {
     }
 }
 
-struct ContentView1: View {
+struct TournamentsView: View {
     var body: some View {
         VStack {
-            Text("Hello1323123!")
+            Text("Hello1323123!fwefwe")
         }
         .padding()
     }
