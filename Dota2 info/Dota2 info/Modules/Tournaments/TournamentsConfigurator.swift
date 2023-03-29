@@ -9,15 +9,21 @@ import SwiftUI
 
 final class TournamentsConfigurator {
 
-    public init() {}
+    private let dependencies: DependencyFactoryProtocol
+    
+    init(dependencies: DependencyFactoryProtocol) {
+        self.dependencies = dependencies
+    }
 
-    func configure() -> Presentable {
+    func configure() -> ConcreteModule<TournamentsInput> {
         let view = TournamentsView()
+        
+        let presenter = TournamentsPresenter(service: dependencies.tournamentsService)
 
         let wrappedView = UIHostingController(
             rootView: view
         )
 
-        return wrappedView
+        return (wrappedView, presenter)
     }
 }

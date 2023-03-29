@@ -27,7 +27,8 @@ final class TournamentsCoordinator: BaseCoordinator {
 
 extension TournamentsCoordinator: Coordinator {
     public func start(with _: Void) {
-        let view = modulesFactory.makeTournaments()
-        router.setRootModule(view, animated: false)
+        let module = modulesFactory.makeTournaments()
+        module.input.bootstrap()
+        router.setRootModule(module.view, animated: false)
     }
 }

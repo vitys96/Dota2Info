@@ -25,6 +25,21 @@
 		E970A43429CE226B00929AFA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E970A43329CE226B00929AFA /* ContentView.swift */; };
 		E970A43729CE230700929AFA /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = E970A43629CE230700929AFA /* Application.swift */; };
 		E970A43A29CE235700929AFA /* CoordinatorsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E970A43929CE235700929AFA /* CoordinatorsFactory.swift */; };
+		E9C114CE29D43F8300AE3B7C /* TournamentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C114CD29D43F8300AE3B7C /* TournamentsView.swift */; };
+		E9C114D129D441E400AE3B7C /* APIDataTasksBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C114D029D441E400AE3B7C /* APIDataTasksBuilder.swift */; };
+		E9C114D329D4431400AE3B7C /* APIDataTasksBuilding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C114D229D4431400AE3B7C /* APIDataTasksBuilding.swift */; };
+		E9C114D629D4434800AE3B7C /* ResponseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C114D529D4434800AE3B7C /* ResponseError.swift */; };
+		E9C114D929D4495D00AE3B7C /* AbstractService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C114D829D4495D00AE3B7C /* AbstractService.swift */; };
+		E9C114DB29D44C7E00AE3B7C /* TournamentsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C114DA29D44C7E00AE3B7C /* TournamentsService.swift */; };
+		E9C114DE29D44D8900AE3B7C /* URLRequestsBuilding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C114DD29D44D8900AE3B7C /* URLRequestsBuilding.swift */; };
+		E9C114E029D44DE100AE3B7C /* APIURLRequestsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C114DF29D44DE100AE3B7C /* APIURLRequestsBuilder.swift */; };
+		E9C114E229D4515C00AE3B7C /* URLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C114E129D4515C00AE3B7C /* URLBuilder.swift */; };
+		E9C114E429D4517400AE3B7C /* MethodPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C114E329D4517400AE3B7C /* MethodPath.swift */; };
+		E9C114E729D4526E00AE3B7C /* RandomRecipesQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C114E629D4526E00AE3B7C /* RandomRecipesQuery.swift */; };
+		E9C114E929D4533500AE3B7C /* URL+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C114E829D4533500AE3B7C /* URL+.swift */; };
+		E9C114EC29D4551200AE3B7C /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C114EB29D4551200AE3B7C /* Recipe.swift */; };
+		E9C114EE29D4586500AE3B7C /* DependencyFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C114ED29D4586500AE3B7C /* DependencyFactoryProtocol.swift */; };
+		E9C114F029D458FD00AE3B7C /* DependencyFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C114EF29D458FD00AE3B7C /* DependencyFactory.swift */; };
 		E9F798C329D3637D00105C6F /* TournamentsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F798C229D3637D00105C6F /* TournamentsCoordinator.swift */; };
 		E9F798C629D3644D00105C6F /* ModulesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F798C529D3644D00105C6F /* ModulesFactory.swift */; };
 		E9F798C829D3648000105C6F /* ModulesFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F798C729D3648000105C6F /* ModulesFactoryProtocol.swift */; };
@@ -54,6 +69,21 @@
 		E970A43329CE226B00929AFA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E970A43629CE230700929AFA /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
 		E970A43929CE235700929AFA /* CoordinatorsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorsFactory.swift; sourceTree = "<group>"; };
+		E9C114CD29D43F8300AE3B7C /* TournamentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentsView.swift; sourceTree = "<group>"; };
+		E9C114D029D441E400AE3B7C /* APIDataTasksBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIDataTasksBuilder.swift; sourceTree = "<group>"; };
+		E9C114D229D4431400AE3B7C /* APIDataTasksBuilding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIDataTasksBuilding.swift; sourceTree = "<group>"; };
+		E9C114D529D4434800AE3B7C /* ResponseError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseError.swift; sourceTree = "<group>"; };
+		E9C114D829D4495D00AE3B7C /* AbstractService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractService.swift; sourceTree = "<group>"; };
+		E9C114DA29D44C7E00AE3B7C /* TournamentsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentsService.swift; sourceTree = "<group>"; };
+		E9C114DD29D44D8900AE3B7C /* URLRequestsBuilding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequestsBuilding.swift; sourceTree = "<group>"; };
+		E9C114DF29D44DE100AE3B7C /* APIURLRequestsBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIURLRequestsBuilder.swift; sourceTree = "<group>"; };
+		E9C114E129D4515C00AE3B7C /* URLBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLBuilder.swift; sourceTree = "<group>"; };
+		E9C114E329D4517400AE3B7C /* MethodPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MethodPath.swift; sourceTree = "<group>"; };
+		E9C114E629D4526E00AE3B7C /* RandomRecipesQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomRecipesQuery.swift; sourceTree = "<group>"; };
+		E9C114E829D4533500AE3B7C /* URL+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+.swift"; sourceTree = "<group>"; };
+		E9C114EB29D4551200AE3B7C /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		E9C114ED29D4586500AE3B7C /* DependencyFactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyFactoryProtocol.swift; sourceTree = "<group>"; };
+		E9C114EF29D458FD00AE3B7C /* DependencyFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyFactory.swift; sourceTree = "<group>"; };
 		E9F798C229D3637D00105C6F /* TournamentsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentsCoordinator.swift; sourceTree = "<group>"; };
 		E9F798C529D3644D00105C6F /* ModulesFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModulesFactory.swift; sourceTree = "<group>"; };
 		E9F798C729D3648000105C6F /* ModulesFactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModulesFactoryProtocol.swift; sourceTree = "<group>"; };
@@ -92,6 +122,8 @@
 		E93E017829D0D6800074DB00 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
+				E9C114ED29D4586500AE3B7C /* DependencyFactoryProtocol.swift */,
+				E9C114EF29D458FD00AE3B7C /* DependencyFactory.swift */,
 			);
 			path = Dependencies;
 			sourceTree = "<group>";
@@ -124,6 +156,9 @@
 		E970A40629CE20A200929AFA /* Dota2 info */ = {
 			isa = PBXGroup;
 			children = (
+				E9C114EA29D4550700AE3B7C /* Entities */,
+				E9C114D729D4494B00AE3B7C /* Service */,
+				E9C114CF29D441C300AE3B7C /* API */,
 				E9FC30AB29D36C6300F5F265 /* Extensions */,
 				E93E017A29D0D6CA0074DB00 /* Helpers */,
 				E93E017829D0D6800074DB00 /* Dependencies */,
@@ -206,6 +241,62 @@
 			path = CoordinatorsFactory;
 			sourceTree = "<group>";
 		};
+		E9C114CF29D441C300AE3B7C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				E9C114E529D4525900AE3B7C /* Queries */,
+				E9C114D429D4433A00AE3B7C /* Helpers */,
+				E9C114DC29D44D7A00AE3B7C /* URL */,
+				E9C114D029D441E400AE3B7C /* APIDataTasksBuilder.swift */,
+				E9C114D229D4431400AE3B7C /* APIDataTasksBuilding.swift */,
+				E9C114E329D4517400AE3B7C /* MethodPath.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		E9C114D429D4433A00AE3B7C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E9C114D529D4434800AE3B7C /* ResponseError.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E9C114D729D4494B00AE3B7C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				E9C114D829D4495D00AE3B7C /* AbstractService.swift */,
+				E9C114DA29D44C7E00AE3B7C /* TournamentsService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		E9C114DC29D44D7A00AE3B7C /* URL */ = {
+			isa = PBXGroup;
+			children = (
+				E9C114DD29D44D8900AE3B7C /* URLRequestsBuilding.swift */,
+				E9C114DF29D44DE100AE3B7C /* APIURLRequestsBuilder.swift */,
+				E9C114E129D4515C00AE3B7C /* URLBuilder.swift */,
+			);
+			path = URL;
+			sourceTree = "<group>";
+		};
+		E9C114E529D4525900AE3B7C /* Queries */ = {
+			isa = PBXGroup;
+			children = (
+				E9C114E629D4526E00AE3B7C /* RandomRecipesQuery.swift */,
+			);
+			path = Queries;
+			sourceTree = "<group>";
+		};
+		E9C114EA29D4550700AE3B7C /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				E9C114EB29D4551200AE3B7C /* Recipe.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
 		E9F798C429D3643900105C6F /* Modules */ = {
 			isa = PBXGroup;
 			children = (
@@ -229,6 +320,7 @@
 			children = (
 				E9FC30A929D36C2300F5F265 /* TournamentsConfigurator.swift */,
 				E9FC30AE29D36FB900F5F265 /* TournamentsPresenter.swift */,
+				E9C114CD29D43F8300AE3B7C /* TournamentsView.swift */,
 			);
 			path = Tournaments;
 			sourceTree = "<group>";
@@ -237,6 +329,7 @@
 			isa = PBXGroup;
 			children = (
 				E9FC30AC29D36C7000F5F265 /* View+.swift */,
+				E9C114E829D4533500AE3B7C /* URL+.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -313,24 +406,39 @@
 			buildActionMask = 2147483647;
 			files = (
 				E970A42B29CE21CF00929AFA /* SystemNavigationController.swift in Sources */,
+				E9C114F029D458FD00AE3B7C /* DependencyFactory.swift in Sources */,
 				E970A42E29CE21FF00929AFA /* ApplicationRouter.swift in Sources */,
 				E9FC30AA29D36C2300F5F265 /* TournamentsConfigurator.swift in Sources */,
+				E9C114D929D4495D00AE3B7C /* AbstractService.swift in Sources */,
 				E9F798C829D3648000105C6F /* ModulesFactoryProtocol.swift in Sources */,
+				E9C114EC29D4551200AE3B7C /* Recipe.swift in Sources */,
+				E9C114E229D4515C00AE3B7C /* URLBuilder.swift in Sources */,
 				E970A43229CE224A00929AFA /* TabBarCoordinator.swift in Sources */,
 				E970A41F29CE214C00929AFA /* LifeCycleListener.swift in Sources */,
 				E970A40829CE20A200929AFA /* AppDelegate.swift in Sources */,
 				E970A40A29CE20A200929AFA /* SceneDelegate.swift in Sources */,
+				E9C114E429D4517400AE3B7C /* MethodPath.swift in Sources */,
+				E9C114DE29D44D8900AE3B7C /* URLRequestsBuilding.swift in Sources */,
 				E9FC30AD29D36C7000F5F265 /* View+.swift in Sources */,
+				E9C114EE29D4586500AE3B7C /* DependencyFactoryProtocol.swift in Sources */,
+				E9C114CE29D43F8300AE3B7C /* TournamentsView.swift in Sources */,
+				E9C114DB29D44C7E00AE3B7C /* TournamentsService.swift in Sources */,
 				E93E017E29D0D6F10074DB00 /* ColorManager.swift in Sources */,
 				E9FC30AF29D36FB900F5F265 /* TournamentsPresenter.swift in Sources */,
 				E970A42129CE215900929AFA /* Routable.swift in Sources */,
+				E9C114D329D4431400AE3B7C /* APIDataTasksBuilding.swift in Sources */,
+				E9C114E929D4533500AE3B7C /* URL+.swift in Sources */,
 				E970A43A29CE235700929AFA /* CoordinatorsFactory.swift in Sources */,
+				E9C114D129D441E400AE3B7C /* APIDataTasksBuilder.swift in Sources */,
+				E9C114E729D4526E00AE3B7C /* RandomRecipesQuery.swift in Sources */,
 				E970A42329CE216700929AFA /* Presentable.swift in Sources */,
 				E9F798C629D3644D00105C6F /* ModulesFactory.swift in Sources */,
 				E93E017C29D0D6DF0074DB00 /* WeakReference.swift in Sources */,
 				E9F798C329D3637D00105C6F /* TournamentsCoordinator.swift in Sources */,
 				E970A43429CE226B00929AFA /* ContentView.swift in Sources */,
 				E970A43029CE221100929AFA /* BaseCoordinator.swift in Sources */,
+				E9C114E029D44DE100AE3B7C /* APIURLRequestsBuilder.swift in Sources */,
+				E9C114D629D4434800AE3B7C /* ResponseError.swift in Sources */,
 				E970A43729CE230700929AFA /* Application.swift in Sources */,
 				E970A42529CE217200929AFA /* Coordinator.swift in Sources */,
 			);

@@ -19,7 +19,8 @@ open class Application: ApplicationProtocol {
         window = ApplicationWindow(frame: UIScreen.main.bounds)
         self.window = window
         
-        let coordinatorsFactory = CoordinatorsFactory(modulesFactory: ModulesFactory())
+        let dependencyFactory = DependencyFactory()
+        let coordinatorsFactory = CoordinatorsFactory(modulesFactory: ModulesFactory(dependencies: dependencyFactory))
 
 
         guard let rootSystem = window?.rootViewController as? SystemNavigationController else {

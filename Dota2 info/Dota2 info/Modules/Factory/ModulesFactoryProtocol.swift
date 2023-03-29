@@ -9,5 +9,5 @@ public typealias ConcreteModule<T> = (view: Presentable, input: T)
 
 public protocol ModulesFactoryProtocol {
     func makeTournaments(
-    ) -> Presentable
+    ) -> ConcreteModule<TournamentsInput>
 }

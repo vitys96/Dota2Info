@@ -9,10 +9,14 @@ import SwiftUI
 
 public final class ModulesFactory: ModulesFactoryProtocol {
     
-    public init() {}
+    private let dependencies: DependencyFactoryProtocol
+    
+    public init(dependencies: DependencyFactoryProtocol) {
+        self.dependencies = dependencies
+    }
 
-    public func makeTournaments() -> Presentable {
-        return TournamentsConfigurator().configure()
+    public func makeTournaments() -> ConcreteModule<TournamentsInput>  {
+        return TournamentsConfigurator(dependencies: dependencies).configure()
     }
     
 }
